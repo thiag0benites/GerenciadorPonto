@@ -22,4 +22,8 @@ window.onload = function(){
         txtClear(txtDescription);
     }
 
+    btnSave.onclick = function(){
+        alert(getDayWeek());
+    }
+
 }
